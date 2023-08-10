@@ -1,0 +1,30 @@
+.headerStyle {
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: grid;
+    grid-template-rows: 4fr, 2fr;
+    h1 {
+        align-self: center;
+        text-align: center;
+        font-size: 5rem;
+        padding:0;
+        margin:0;
+        margin-top: 20%;
+    }
+    section {
+        align-self: end;
+        display: grid;
+        height: 25vh;
+        background-color: rgba(30,30,30,0.6);
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}

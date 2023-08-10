@@ -1,0 +1,39 @@
+.contentSectionLight {
+    color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr 2fr 1fr;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    margin: 8px;
+    padding: 4px;
+    height: 40vh;
+}
+
+.contentSectionDark {
+    color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr 2fr 1fr;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-color: rgb(30,30,30, 0.5);
+    background-blend-mode: multiply;
+    margin: 8px;
+    padding: 4px;
+    height: 40vh;
+
+
+    p{
+        width: 70%;
+        margin:auto;
+    }
+}

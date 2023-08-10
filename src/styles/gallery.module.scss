@@ -1,0 +1,10 @@
+.imageGalleryStyle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    margin: 16px;
+    gap: 8px;
+    img {
+        width: 100%;
+    }
+}
